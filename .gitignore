@@ -1,0 +1,10 @@
+cache.iml
+cache.ipr
+cache.iws
+
+.gradle/*
+.idea/*
+
+build/*
+modules/*/build/*
+modules/*/*.iml
