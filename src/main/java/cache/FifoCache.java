@@ -33,12 +33,6 @@ public class FifoCache<K, V> implements Cache<K, V> {
 
     @Override
     public V get(K key) {
-        queue.removeFirstOccurrence(key);
-        queue.addFirst(key);
-        return cache.get(key);
-    }
-
-    V getQuiet(K key) {
         return cache.get(key);
     }
 
